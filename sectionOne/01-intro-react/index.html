@@ -7,7 +7,11 @@
 
     <!-- Cargat React -->
     <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+
+    <!-- Carga ReactDOM -->
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+    <!-- Carga Babel para compilar js moderno a js soportable -->
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
     <title>ReactApp</title>
@@ -15,13 +19,16 @@
 <body>
     <div id="root"></div>
 
+    <!-- Tipo de script, babel para que tome el compilador -->
     <script type="text/babel">
 
+        /// Seleccionamos el id con querySelector para mostrar contrenido de js
         const divRoot = document.querySelector('#root');
 
         const name = 'Goku';
         const h1Tag = <h1>Hola, soy {name}</h1>;
 
+        /// Renderizamos en el DOM el tag y aparte le mandamos en donde mostrarlo
         ReactDOM.render(h1Tag, divRoot);
 
     </script>
