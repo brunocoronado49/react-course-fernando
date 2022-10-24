@@ -1,1 +1,1 @@
-/// Fetch API
+/// Operador ternario
