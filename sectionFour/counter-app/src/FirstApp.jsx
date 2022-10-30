@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-
+ 
 /// Se recomienda usar funciones fuera del funcional
 /// component para que no guarde espacio en memoria
 const message = () => {
