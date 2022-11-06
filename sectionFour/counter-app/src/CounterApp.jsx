@@ -19,10 +19,12 @@ export const CounterApp = ({ value }) => {
     );
 };
 
+/// Especificar el tipo de datos
 CounterApp.propTypes = {
     value: PropTypes.number,
 };
 
+/// Darle valor por defecto a las props
 CounterApp.defaultProps = {
     value: 0,
 };
