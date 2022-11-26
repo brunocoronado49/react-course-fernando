@@ -35,3 +35,5 @@ console.log(nombreClave, anios);
 console.log( lat, lng );
 
 
+/// NOTA: PAra la prueba de los objetos es exactamente igual
+/// las pruebas de las funciones ya que vienen ejemplos de objetos

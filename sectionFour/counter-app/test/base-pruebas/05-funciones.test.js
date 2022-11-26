@@ -1,7 +1,7 @@
 import { getUser, getUsuarioActivo } from "../../src/base-pruebas/05-funciones";
 
-/// Al comparar dos objetos tenemos que comparar con toEqual
-/// Se comparan en base a espacio de memoria
+/// Al comparar dos objetos tenemos que comparar con
+/// toEqual se comparan en base a espacio de memoria
 describe("Pruebas en 05-funciones", () => {
     test("getUser debe retornar un objeto", () => {
         const testUser = {
