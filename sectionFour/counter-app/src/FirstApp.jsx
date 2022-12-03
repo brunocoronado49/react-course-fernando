@@ -34,3 +34,4 @@ FirstApp.propTypes = {
     title: PropTypes.string.isRequired,
     subtitle: PropTypes.string,
 };
+ 
