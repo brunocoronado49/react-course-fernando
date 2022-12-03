@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
- 
+
 /// Se recomienda usar funciones fuera del funcional
 /// component para que no guarde espacio en memoria
 const message = () => {
@@ -25,13 +25,12 @@ export const FirstApp = ({ title, subtitle, name }) => {
 };
 
 FirstApp.defaultProps = {
-    title: "No hay título",
+    //title: "No hay título",
     subtitle: "No hay subtitulo",
     name: "Francisco Rangel",
-}
+};
 
 FirstApp.propTypes = {
     title: PropTypes.string.isRequired,
     subtitle: PropTypes.string,
-}
-
+};
